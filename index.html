@@ -15,7 +15,7 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
-                        'btn-grocery-primary': '#179800',
+                        'grocery-primary': '#179800',
                     }
                 }
             }
@@ -36,7 +36,7 @@
 
 <body class="font-sora">
     <!-- header section -->
-    <header class="bg-gradient-to-b from-white to-[#EFEBE3]">
+    <header class="bg-gradient-to-b from-white to-[#EFEBE3] mb-36">
         <nav class="container mx-auto mb-24">
             <div class="navbar border-2 border-green-600 md:border-hidden">
                 <div class="navbar-start">
@@ -69,7 +69,7 @@
                         </svg>
                     </a>
                     <a class="btn border border-green-600 text-lg px-8">Login</a>
-                    <a class="btn bg-btn-grocery-primary text-lg px-8 text-white">Register</a>
+                    <a class="btn bg-grocery-primary text-lg px-8 text-white">Register</a>
                 </div>
                 <div class="navbar-end flex-none lg:hidden">
                     <button class="btn btn-square btn-ghost">
@@ -85,10 +85,13 @@
         <!-- hero section -->
         <section class="container mx-auto">
             <!-- text section -->
-            <div class="text-center space-y-7">
-                <h1 class="font-semibold text-5xl leading-normal">Freshness <span class="text-btn-grocery-primary">You Can</span>
-                    <br> <span class="text-btn-grocery-primary">Count</span> On, Prices You’ll Love!</h1>
-                <p class="w-3/5 mx-auto text-gray-500 text-xl">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
+            <div class="text-center space-y-7 mb-8">
+                <h1 class="font-semibold text-5xl leading-normal">Freshness <span class="text-grocery-primary">You
+                        Can</span>
+                    <br> <span class="text-grocery-primary">Count</span> On, Prices You’ll Love!
+                </h1>
+                <p class="w-3/5 mx-auto text-gray-500 text-xl">Shop your daily essentials at unbeatable prices. From
+                    fresh produce to pantry staples, we’ve got you covered every day!</p>
             </div>
             <!-- image section -->
             <div class="flex justify-center">
@@ -97,7 +100,50 @@
         </section>
     </header>
     <!-- main section -->
-    <main>
+    <main class="container mx-auto">
+        <!-- services section -->
+        <section class="mb-36">
+            <h2 class="text-3xl font-semibold text-grocery-primary mb-10">Services</h2>
+            <!-- card boxes section -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <!-- card-1 -->
+                <div class="card bg-[#EFEBE3] w-96">
+                    <div class="avatar flex justify-center pt-8">
+                        <div class="w-24 rounded-full bg-white p-3">
+                            <img src="./c2-assets/service.png" />
+                        </div>
+                    </div>
+                    <div class="card-body text-center">
+                        <h2 class="card-title mx-auto">24/7 Services </h2>
+                        <p>Providing fresh groceries, 24/7 home delivery, easy ordering, special discounts, and exceptional customer support.</p>
+                    </div>
+                </div>
+                <!-- card-2 -->
+                <div class="card bg-[#EFEBE3] w-96">
+                    <div class="avatar flex justify-center pt-8">
+                        <div class="w-24 rounded-full bg-white p-3">
+                            <img src="./c2-assets/delivery.png" />
+                        </div>
+                    </div>
+                    <div class="card-body text-center">
+                        <h2 class="card-title mx-auto">Fast Delivery</h2>
+                        <p>"Experience lightning-fast delivery, ensuring fresh groceries arrive at your doorstep in record time, every order.</p>
+                    </div>
+                </div>
+                <!-- card-3 -->
+                <div class="card bg-[#EFEBE3] w-96">
+                    <div class="avatar flex justify-center pt-8">
+                        <div class="w-24 rounded-full bg-white p-3">
+                            <img src="./c2-assets/healthy.png" />
+                        </div>
+                    </div>
+                    <div class="card-body text-center">
+                        <h2 class="card-title mx-auto">Healthy Products </h2>
+                        <p>"Supplying fresh, organic groceries to promote a healthier lifestyle with nutrient-rich, high-quality products.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </main>
     <!-- footer section -->
